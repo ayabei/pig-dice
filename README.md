@@ -1,10 +1,10 @@
 # PROJECT NAME
 
-### Pig Dice
+Pig Dice
 
 ## DESCRIPTION
 
-#### This is a computer based a dice game which follows the following rules
+#### This is a computer based dice game which follows the following rules
 
 ##### 
 * When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
@@ -17,15 +17,13 @@
 
 ## How to Play 
 
-#### A two player game, simply click on the start button to initiate.
+ Player 1 clicks on the roll button and a random number is generated.If a 1 is generated, the player looses and gets a zero. Player 2 rolls their dice and the same circle continues.
 
 ## CREDITS
 
-####  StackOverflow.com and W3 schools.
+StackOverflow.com and W3 schools.
 
 ## Technoligies
-
-##### 
 * HTML
 * CSS
 * Bootstrap.
