@@ -6,27 +6,52 @@
 	<title>pig dice</title>
 </head>
 <body>
+	<div class="container">
+		<center>
 	
 	<h1 style="text-align: center;">PIG</h1>	
 
+	<div class="row" >
+
 		<h3>How to play</h3>
-		<ol>
+		<ul style="text-align: center; list-style: none;">
 			<li>Pig is a dice game. To play,you need an ordinary six-sided die, labeled 1 to 6</li>
 			<li>Each turn of the game consists of one or more rolls of the die</li>
 			<li>You continue to roll until you decide to stop or until you roll 1. You may choose to stop rolling at anytime</li>
-
-
-
-
-		</ol>
-
-
-			
-
+		</ul>
 		
+	</div>
+			
+		<div class="col-md-6" id="column1">
+			<center>
+			<h3 id="player1">Player 1</h3>
+			<br>
+			<button type="button" class="btn-roll" onclick="myFunction()">Roll</button>
+			<button type="button" class="btn-hold" onclick="myFunction()">Hold</button>
 
+			<!-- <button class="button" onclick="myFunction()">roll</button> -->
+			<!-- <button onclick="myFunction()" ></button> -->
+		<div id="output"></div>
+		</center>
+		
+		</div>
+		
+		<div class="col-md-6" id="column2">
+			<center>
+			<h3 id="player2">Player 2</h3>
+			<br>
+ 			<button type="button" class="btn-roll" onclick="myFunction()">Roll</button>
+  			<button type="button" class="btn-hold" onclick="myFunction()">Hold</button>
 
-  <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
+			<!-- <button class="button"onclick="myFunction()">roll</button> -->
+		<!-- <button onclick="myFunction()" ></button> -->
+		<div id="output1"></div>
+			</center>
+		</div>
+		</div>
+			</center>
+  
 </body>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/scripts.js"></script>
 </html>
