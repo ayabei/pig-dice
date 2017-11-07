@@ -1,35 +1,41 @@
-# PROJECT NAME
+# _Pig Dice Game_
 
-Pig Dice
+#### By _Doreen Ayabei
 
-## DESCRIPTION
+## Description
 
-#### This is a computer based dice game which follows the following rules
+_This web application allows two players to play a game of Pig Dice._
 
-##### 
-* When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
-* When the player rolls a 2 - 6, the score is added to their turn total and they can continue to play
-* When the player chooses to "hold", their turn total is added to their total score, and the other player takes the turn.
-* The player who first scores 100 or more points wins.
-# Installation
+## Specs
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Player 1 inputs name and Player 2 inputs name, and clicks start button | Player 1: Doreen / Player 2: Ayabei / Click START | Goes to game console |
+| Player 1 clicks ROLL button | Click ROLL button | Dice rolls and number is generated
+| If Player 1 rolls any number other than 1, that roll is added to round total | Roll = 2 | Round total = 2 |
+| If Player 1 rolls a 1, no score is added and round for Player 1 ends | Roll = 1 | Round total = 2 / Total score = 2 / Player 2 begins |
+| Repeat for Player 2 | Roll = 1 | Round total = 0 / Total score = 0 / Player 1 begins |
+| When a player's total score reaches 100 or more, game ends and winner page shows | Player 1 total score = 100 | Winner page |
 
-#### The game is easily available on Github
 
-## How to Play 
+## Setup/Installation Requirements
 
- Player 1 clicks on the roll button and a random number is generated.If a 1 is generated, the player looses and gets a zero. Player 2 rolls their dice and the same circle continues.
+* _Clone this repository_
+* _Open an HTML file_
+* _Open web browser of choice_
 
-## CREDITS
+## Notes
 
-StackOverflow.com and W3 schools.
 
-## Technoligies
-* HTML
-* CSS
-* Bootstrap.
-* Javascript.
-* JQuery
+## Technologies Used
 
-## License
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
-*MIT License
+### License
+
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2017 **Doreen Ayabei**
