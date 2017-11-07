@@ -5,3 +5,6 @@ body{
 	background-image: url("../img/pig-dice-fb680.jpg");
 	background-repeat: none;
 }
+#player1-roll{
+	background-color: #f442c5;
+}
