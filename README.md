@@ -1,7 +1,6 @@
 # _Pig Dice Game_
 
 #### By _Doreen Ayabei
-
 ## Description
 
 _This web application allows two players to play a game of Pig Dice._
