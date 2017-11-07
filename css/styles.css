@@ -3,7 +3,8 @@
 }
 body{
 	background-image: url("../img/pig-dice-fb680.jpg");
-	background-repeat: none;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #player1-roll{
 	background-color: #f442c5;
